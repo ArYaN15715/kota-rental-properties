@@ -1,0 +1,28 @@
+type PropertyId = nat;
+type Property = 
+ record {
+   amenities: vec text;
+   description: text;
+   furnished: bool;
+   id: PropertyId;
+   imageUrl: text;
+   location: text;
+   nearbyCoaching: vec text;
+   price: nat;
+   propertyType: text;
+   studentFriendly: bool;
+   title: text;
+   verified: bool;
+ };
+type InquiryInput = 
+ record {
+   message: text;
+   name: text;
+   phone: text;
+   propertyType: text;
+ };
+type InquiryId = nat;
+service : {
+  getProperties: () -> (vec Property) query;
+  submitInquiry: (input: InquiryInput) -> (InquiryId);
+}

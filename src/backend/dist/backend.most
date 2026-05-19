@@ -1,0 +1,45 @@
+// Version: 1.0.0
+type InquiryId__340326671 = Nat;
+type Inquiry__672695800 =
+  {
+    id : InquiryId__340326671;
+    message : Text;
+    name : Text;
+    phone : Text;
+    propertyType : Text;
+    timestamp : Timestamp__301639476
+  };
+type Nat__490723111 = Nat__920180692;
+type Nat__920180692 = Nat;
+type PropertyId__421252593 = Nat;
+type Property__907739908 =
+  {
+    amenities : [Text];
+    description : Text;
+    furnished : Bool;
+    id : PropertyId__421252593;
+    imageUrl : Text;
+    location : Text;
+    nearbyCoaching : [Text];
+    price : Nat;
+    propertyType : Text;
+    studentFriendly : Bool;
+    title : Text;
+    verified : Bool
+  };
+type Timestamp__301639476 = Int;
+actor {
+  stable inquiries :
+    {
+      var blockIndex : Nat__490723111;
+      var blocks : [var [var ?Inquiry__672695800]];
+      var elementIndex : Nat__490723111
+    };
+  stable properties :
+    {
+      var blockIndex : Nat__490723111;
+      var blocks : [var [var ?Property__907739908]];
+      var elementIndex : Nat__490723111
+    };
+  stable state : {var nextInquiryId : InquiryId__340326671}
+};

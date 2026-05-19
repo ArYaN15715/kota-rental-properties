@@ -1,0 +1,31 @@
+{
+  "overview": "A premium, conversion-focused real estate website for KOTA RENTAL & PROPERTIES — Kota's most trusted rental and property consultancy for students, parents, families, and working professionals. Features verified property listings, interactive search and filters, WhatsApp lead capture, local area expertise, and a high-trust glassmorphism design built to convert visitors into inquiries.",
+  "features": [
+    "Sticky glassmorphism navbar with scroll-shrink effect",
+    "Hero section with animated property cards and trust badges",
+    "Interactive property search with 6 filters",
+    "Featured property cards with hover animations and WhatsApp CTAs",
+    "Why Choose Us trust section with 6 feature cards",
+    "Local authority section covering key Kota areas and coaching hotspots",
+    "Animated stats counters (clients, properties, experience)",
+    "Auto-scrolling testimonials carousel with glassmorphism cards",
+    "Inquiry form with backend storage",
+    "Floating WhatsApp button and sticky mobile CTA bar",
+    "Premium footer with contact info, service areas, and Google Maps link",
+    "Mobile-first responsive design optimized for lead conversion"
+  ],
+  "category": "real-estate",
+  "tags": [
+    "real-estate",
+    "rental",
+    "kota",
+    "rajasthan",
+    "student-housing",
+    "property",
+    "lead-generation",
+    "whatsapp",
+    "glassmorphism",
+    "conversion"
+  ],
+  "last_updated": "2026-05-19T05:54:33.587Z"
+}
