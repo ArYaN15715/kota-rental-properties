@@ -39414,21 +39414,21 @@ function HeroSection() {
         /* @__PURE__ */ jsxRuntimeExports.jsx(
           "div",
           {
-            className: "absolute top-1/4 left-1/4 w-96 h-96 rounded-full opacity-10 blur-3xl pointer-events-none animate-pulse",
+            className: "absolute top-1/4 left-1/4 w-96 h-96 rounded-full opacity-10 blur-3xl pointer-events-none hidden md:block animate-pulse",
             style: { background: "#1A4FBF" }
           }
         ),
         /* @__PURE__ */ jsxRuntimeExports.jsx(
           "div",
           {
-            className: "absolute bottom-1/4 right-1/4 w-80 h-80 rounded-full opacity-8 blur-3xl pointer-events-none",
+            className: "absolute bottom-1/4 right-1/4 w-80 h-80 rounded-full opacity-8 blur-3xl hidden md:block pointer-events-none",
             style: { background: "#F59E0B" }
           }
         ),
         /* @__PURE__ */ jsxRuntimeExports.jsx(
           "div",
           {
-            className: "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full opacity-5 blur-3xl pointer-events-none",
+            className: "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full opacity-5 blur-3xl hidden md:block pointer-events-none",
             style: { background: "#1A4FBF" }
           }
         ),
